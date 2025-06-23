@@ -30,7 +30,7 @@ const projects = [
     description:
   " Le site d'Anis s'inspire des nouveaux médias présents sur les réseaux sociaux afin d'informer les visiteurs, notamment en matière de sécurité.  ",
     stack: ['Information','Journal','Sécurité'],
-    sourceCode: 'https://github.com/JawedBS/OhMyFood.git',
+    sourceCode: 'https://github.com/JBexplo/anis',
     livePreview: 'https://ohmyfood-jbs.netlify.app/', 
   },
   {
@@ -38,7 +38,7 @@ const projects = [
     description:
     "Charafeddine nous ouvre les portes de son blog pour en apprendre un peu plus sur l'histoire de notre système solaire.",
     stack: ['Blog', 'Espace', 'Science'],
-    sourceCode: 'https://github.com/JawedBS/Nina-Carducci.git',
+    sourceCode: 'https://github.com/JBexplo/charafeddine.git',
     livePreview: 'https://nina-carducci-jbs.netlify.app/',
   },
   {
@@ -46,7 +46,7 @@ const projects = [
   description:
   "Avez-vous l'esprit Gamer ? Hugo oui ! Besoin d'une bonne playlist ou d'une recommandation Jeux-Vidéos ? Hugo saura vous conseiller 😉 ",
   stack: ['Jeux-vidéo', 'Roblox', 'Blog'],
-  sourceCode: 'https://github.com/JawedBS/Printit.git',
+  sourceCode: 'https://github.com/JBexplo/hugo.git',  
   livePreview: 'https://jawedbs.github.io/Printit/',
 },
 {
@@ -54,7 +54,7 @@ const projects = [
   description:
   (<>Ibrahim  est un expert de BrawlStar et vous propose des tutoriels <i>pour avoir la meilleure Méta</i> de tous les gamers</>),
   stack: ['Jeux-vidéo', 'BrawlStar', 'Tutoriel'],
-  sourceCode: 'https://github.com/JawedBS/Printit.git',
+  sourceCode: 'https://github.com/JBexplo/ibrahim.git',
   livePreview: 'https://dynamic-mochi-540184.netlify.app/',
 },
 {
@@ -62,15 +62,15 @@ const projects = [
   description:
   "Louis a répertorié pour vous un grand nombre de personnages des Shonens les plus marquants du millénaire",
   stack: ['Wiki', 'Blog','Manga'],
-  sourceCode: 'https://github.com/JawedBS/Printit.git',
+  sourceCode: 'https://github.com/JBexplo/louis.git',
   livePreview: 'https://dynamic-mochi-540184.netlify.app/',
 },
 {
   name: 'Les jeux pour protéger la planète',
   description:
-  "Notre experte en environnment Maelys cherche à nous sensibiliser à travers une liste de jeux vidéos sur la nature et l'environnement",
+  "Notre experte en environnement Maelys cherche à nous sensibiliser à travers une liste de jeux vidéos sur la nature et l'environnement",
   stack: ['Jeux-vidéo', 'Blog', 'Wiki'],
-  sourceCode: 'https://github.com/JawedBS/Printit.git',
+  sourceCode: 'https://github.com/JBexplo/maelys.git',
   livePreview: 'https://dynamic-mochi-540184.netlify.app/',
 },
 {
@@ -78,7 +78,7 @@ const projects = [
   description:
   "Solal vous propose un top des meilleurs mangas. En prime, vous pourrez découvrir les OAV de Naruto, One Piece ou Spy X Family",
   stack: ['Blog','Manga','Musique'],
-  sourceCode: 'https://github.com/JawedBS/Printit.git',
+  sourceCode: 'https://github.com/JBexplo/solal.git',
   livePreview: 'https://dynamic-mochi-540184.netlify.app/',
 },
 {
@@ -86,7 +86,7 @@ const projects = [
   description:
   "Découvrez l'art des shōjos à travers une collection d'images issues de l'univers de Zeynab ",
   stack: ['Blog', 'Manga', 'Musique'],
-  sourceCode: 'https://github.com/JawedBS/Printit.git',
+  sourceCode: 'https://github.com/JBexplo/zeynab.git',
   livePreview: 'https://dynamic-mochi-540184.netlify.app/',
 },
 ];
@@ -118,7 +118,7 @@ const extra = {
 const contact = {
   // email is optional - if left empty Contact section won't show up
   email: 'reservation@exploradome.com',
-  cta: "Vous pouvez nous joindres pour plus d'information en cliquant ci-dessous",
+  cta: "Vous pouvez nous joindre pour plus d'information en cliquant ci-dessous",
 }
 
 
