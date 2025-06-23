@@ -10,7 +10,7 @@ const Contact = () => {
       {contact.cta && <p className='contact__cta'>{contact.cta}</p>}
       <a href={`mailto:${contact.email}`}>
         <span type='button' className='btn btn--outline'>
-          Me contacter
+          Nous contacter
         </span>
       </a>
     </section>

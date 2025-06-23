@@ -6,7 +6,7 @@ const Footer = () => (
       href='https://github.com/JawedBS/cleanfolio.git'
       className='link footer__link'
     >
-      Portfolio de Jawed Ben salah
+      Portfolio des Exploraclubs 2025, Exploradôme
     </a>
   </footer>
 )

@@ -7,7 +7,7 @@ const Skills = () => {
 
   return (
     <section className='section skills' id='skills'>
-      <h2 className='section__title'>Compétences</h2>
+      <h2 className='section__title'>Compétences apprises</h2>
 
       {skills.languages && (
         <>
@@ -24,7 +24,7 @@ const Skills = () => {
 
       {skills.frameworks && (
         <>
-          <h3 className='skills__category'>Frameworks & Librairies</h3>
+          <h3 className='skills__category'>Concepts</h3>
           <ul className='skills__list'>
             {skills.frameworks.map((skill) => (
               <li key={uniqid()} className='skills__list-item btn btn--plain'>
@@ -50,7 +50,7 @@ const Skills = () => {
 
       {skills.others && (
         <>
-          <h3 className='skills__category'>Autres compétences</h3>
+          <h3 className='skills__category'>Références</h3>
           <ul className='skills__list'>
             {skills.others.map((skill) => (
               <li key={uniqid()} className='skills__list-item btn btn--plain'>

@@ -1,21 +1,24 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://github.com/JawedBS/cleanfolio.git',
-  title: 'JBS',
+  homepage: 'https://www.exploradome.fr/',
+  title: 'Exploradôme',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'Ben salah Jawed',
-  role: 'Intégrateur Web',
+  name: 'Atelier Exploraclub 2025',
+  role: 'Initiation à la création d\'une page Web',
   // short description can be used as subtitle
-  description:
-  "Je suis Jawed Ben Salah, intégrateur web passionné par le détail qui change tout. Avant de coder, j’ai appris à transmettre : expliquer des concepts scientifiques, les rendre clairs et vivants. Aujourd’hui, j’applique cette même exigence dans mes interfaces. J’aime transformer des maquettes en expériences intuitives, lisibles et accessibles. Chaque ligne de code est un choix, chaque interaction raconte quelque chose. Mon objectif : un web à la fois beau, rapide et humain.",
-  resume: 'https://example.com',
-  social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com/JawedBS',
-  },
+description: (
+    <>
+      Dans le cadre des ateliers Exploraclub, nos informaticien·nes en herbe ont eu trois mois pour s&apos;initier à l&apos;apprentissage des mécaniques d&apos;internet. <br />
+      Au programme : design WEB, prise en main des outils de développement, et programmation en <b>HTML/CSS</b>.
+    </>
+  )  // resume: 'https://example.com',
+  // social: {
+  //   linkedin: 'https://linkedin.com',
+  //   github: 'https://github.com/JawedBS',
+  // },
 }
 
 const projects = [
@@ -23,77 +26,99 @@ const projects = [
   // if there are no projects, Projects section won't show up
   // if you want to add a project, follow the format below
   {
-    name: 'OhMyFood',
+    name: 'Aninfo',
     description:
-  "Site vitrine responsive de menus gastronomiques avec animations CSS avancées. J’ai construit ce projet de A à Z en m’appliquant à rendre l’expérience fluide et vivante. Il m’a permis de plonger dans les transitions CSS complexes et de maîtriser le responsive design jusque dans les moindres détails.",
-    stack: ['HTML','Animations CSS', 'SASS'],
+  " Le site d'Anis s'inspire des nouveaux médias présents sur les réseaux sociaux afin d'informer les visiteurs, notamment en matière de sécurité.  ",
+    stack: ['Information','Journal','Sécurité'],
     sourceCode: 'https://github.com/JawedBS/OhMyFood.git',
     livePreview: 'https://ohmyfood-jbs.netlify.app/', 
   },
   {
-    name: 'Nina Carducci',
+    name: '✨ Mon Blog sur l\'Univers!!!✨ ',
     description:
-  "Optimisation d’un site de photographe pour améliorer son SEO, ses performances et son accessibilité. J’ai mené une analyse complète via Lighthouse et mis en place des optimisations techniques concrètes : balises sémantiques, structure ARIA, amélioration du temps de chargement. Ce projet m’a appris à rendre un site vraiment performant… sans sacrifier l’esthétique.",
-    stack: ['HTML', 'SEO', 'Accessibilité', 'Référencement'],
+    "Charafeddine nous ouvre les portes de son blog pour en apprendre un peu plus sur l'histoire de notre système solaire.",
+    stack: ['Blog', 'Espace', 'Science'],
     sourceCode: 'https://github.com/JawedBS/Nina-Carducci.git',
     livePreview: 'https://nina-carducci-jbs.netlify.app/',
   },
   {
-  name: 'Printit',
+  name: 'Gamer Sensations',
   description:
-  "Refonte visuelle d’un site vitrine à partir d’une maquette Figma. Mon rôle : intégrer chaque section au pixel près tout en assurant une cohérence d’ensemble. Ce projet m’a permis de perfectionner ma rigueur en intégration HTML/CSS et de travailler la lisibilité d’un site professionnel.",
-  stack: ['HTML', 'CSS', 'JavaScript'],
+  "Avez-vous l'esprit Gamer ? Hugo oui ! Besoin d'une bonne playlist ou d'une recommandation Jeux-Vidéos ? Hugo saura vous conseiller 😉 ",
+  stack: ['Jeux-vidéo', 'Roblox', 'Blog'],
   sourceCode: 'https://github.com/JawedBS/Printit.git',
   livePreview: 'https://jawedbs.github.io/Printit/',
 },
 {
-  name: 'Kasa',
+  name: 'BS CODIUM',
   description:
-  "Refonte visuelle d’un site vitrine à partir d’une maquette Figma. Mon rôle : intégrer chaque section au pixel près tout en assurant une cohérence d’ensemble. Ce projet m’a permis de perfectionner ma rigueur en intégration HTML/CSS et de travailler la lisibilité d’un site professionnel.",
-  stack: ['HTML', 'CSS', 'JavaScript'],
+  (<>Ibrahim  est un expert de BrawlStar et vous propose des tutoriels <i>pour avoir la meilleure Méta</i> de tous les gamers</>),
+  stack: ['Jeux-vidéo', 'BrawlStar', 'Tutoriel'],
+  sourceCode: 'https://github.com/JawedBS/Printit.git',
+  livePreview: 'https://dynamic-mochi-540184.netlify.app/',
+},
+{
+  name: 'Liste de personnages de mangas',
+  description:
+  "Louis a répertorié pour vous un grand nombre de personnages des Shonens les plus marquants du millénaire",
+  stack: ['Wiki', 'Blog','Manga'],
+  sourceCode: 'https://github.com/JawedBS/Printit.git',
+  livePreview: 'https://dynamic-mochi-540184.netlify.app/',
+},
+{
+  name: 'Les jeux pour protéger la planète',
+  description:
+  "Notre experte en environnment Maelys cherche à nous sensibiliser à travers une liste de jeux vidéos sur la nature et l'environnement",
+  stack: ['Jeux-vidéo', 'Blog', 'Wiki'],
+  sourceCode: 'https://github.com/JawedBS/Printit.git',
+  livePreview: 'https://dynamic-mochi-540184.netlify.app/',
+},
+{
+  name: 'Les petits mangas de SOSO',
+  description:
+  "Solal vous propose un top des meilleurs mangas. En prime, vous pourrez découvrir les OAV de Naruto, One Piece ou Spy X Family",
+  stack: ['Blog','Manga','Musique'],
+  sourceCode: 'https://github.com/JawedBS/Printit.git',
+  livePreview: 'https://dynamic-mochi-540184.netlify.app/',
+},
+{
+  name: 'Mangas magnifiques',
+  description:
+  "Découvrez l'art des shōjos à travers une collection d'images issues de l'univers de Zeynab ",
+  stack: ['Blog', 'Manga', 'Musique'],
   sourceCode: 'https://github.com/JawedBS/Printit.git',
   livePreview: 'https://dynamic-mochi-540184.netlify.app/',
 },
 ];
 
 const skills = {
-  languages: ['HTML', 'CSS', 'JavaScript'],
-  frameworks: ['React', 'Redux', 'SASS'],
-  tools: ['Git', 'GitHub'],
-  others: ['Accessibilité', 'Référencement SEO'],
-  intro:
-    "Voici les technologies que j’utilise au quotidien pour construire des interfaces modernes, accessibles et performantes.",
+  languages: ['HTML', 'CSS'],
+  frameworks: ['Comment fonctionne le WEB ? ', 'Qu\'est ce qu\'une page et un site WEB ? ','A quoi servent les différents types de sites internet ? ','Quels sont les éléments de design d\'une page WEB ? '],
+  tools: ['VSCode', 'Navigateur Internet'],
+  others: ['CodePen', 'FlexBox Froggy', 'Neocities'],
+  // intro:
+  //   "Voici les technologies que j’utilise au quotidien pour construire des interfaces modernes, accessibles et performantes.",
+}
+
+
+const extra = {
+  title: 'À propos des Exploraclubs de l\'Exploradôme',
+  content: [
+    {
+      heading: 'Qui sommes nous ?',
+      text: "Savoir Apprendre est une association loi 1901 reconnue d’intérêt général, créée en 1997 par Goéry Delacôte, physicien et pionnier de la médiation scientifique interactive. Depuis plus de 25 ans, elle agit pour rendre les sciences, le numérique et les enjeux de société accessibles à toutes et tous, notamment aux jeunes et aux publics éloignés de la culture.Notre projet éducatif repose sur l’expérimentation, la manipulation et l’éveil à l’esprit critique. Nous croyons que la science doit être vécue, partagée et questionnée pour construire une société plus éclairée, inclusive et durable. Inauguré en 1998, l’Exploradôme est un musée associatif interactif, piloté et animé par l’association Savoir Apprendre.",
+    },
+    {
+      heading: 'Que sont les Exploraclubs ?',
+      text: "Ce sont des ateliers ludiques en petit groupe afin de faire découvrir les métiers et les arts du numérique. Toutes les semaines, nous nous réunissons pendant deux heures pour s'emparer de thématiques comme la programmation, les règles de bon usage de la technologie, tout en jouant et en s'amusant.",
+    }
+  ],
 }
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'jawedb93@gmail.com',
-  cta: "Un projet, une idée, ou juste envie de discuter ? Écris-moi :)",
-}
-const extra = {
-  title: 'À propos de moi, autrement',
-  content: [
-    {
-      heading: 'Pourquoi je code',
-      text: "Parce que j’aime transformer des idées abstraites en interfaces concrètes. Parce que le code est une forme de création, de structure et de liberté. Et aussi... parce que c’est kiffant quand tout marche sans bug 😅.",
-    },
-    {
-      heading: 'Ma vision du web',
-      text: "Un bon site est comme un bon livre : il se lit facilement, il donne envie d’aller plus loin, et il laisse une impression durable. Pour moi, un bon dev sait à la fois coder, penser à l’utilisateur, et aimer les détails.",
-    },
-    {
-      heading: 'Parcours express',
-      text:
-        "→ 1 an comme technicien de laboratoire à l’hôpital Avicenne – rigueur, méthode, précision scientifique.\n" +
-        "→ 5 ans en médiation scientifique chez Les Petits Débrouillards, dont 6 mois en tant que chargé de projet – pédagogie, vulgarisation, coordination terrain.\n" +
-        "→ Responsable de médiation dans un musée – transmettre, organiser et mettre en scène le savoir pour tous les publics.\n" +
-        "→ Reconverti dans le développement web : je suis aujourd’hui intégrateur, passionné par le pixel perfect, l’accessibilité, et l’expérience utilisateur fluide.",
-    },
-    {
-      heading: 'Références & Fun facts',
-      text: "Je code souvent avec des OST de Dragon Ball Z ou du Lofi.\nMon deck Yu-Gi-Oh préféré ? Les Héros Élémentaires.\nMa team Pokémon de cœur ? Gallame, Zeraora, Jungko, Simiabraz, Aligatueur et Cizayox.\nJe suis autant Sinbad que Vegeta Ultra Ego – selon l’humeur du jour.",
-    },
-  ],
+  email: 'reservation@exploradome.com',
+  cta: "Vous pouvez nous joindres pour plus d'information en cliquant ci-dessous",
 }
 
 
